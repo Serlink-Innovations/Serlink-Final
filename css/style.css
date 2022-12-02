@@ -453,6 +453,7 @@ section.about .aboutContent #about-contentRight {
 }
 section.about .aboutContent #about-contentLeft > ol {
   line-height: 2;
+  padding-inline: 1rem;
 }
 section.about .aboutContent #about-contentRight > button {
   margin: 0;
