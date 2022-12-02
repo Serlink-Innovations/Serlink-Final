@@ -113,6 +113,33 @@
     position: absolute;
 }
 
+section.about {
+    color: var(--foreground);
+    display: block;
+    margin-block: 2rem;
+
+    .aboutContent {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+        #about-contentLeft,
+        #about-contentRight {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        #about-contentLeft>ol {
+            line-height: 2;
+        }
+
+        #about-contentRight>button {
+            margin: 0;
+        }
+    }
+}
+
 section.services {
     display: block;
 
