@@ -1,0 +1,461 @@
+:root {
+  --primary: #224c8d;
+  --background: #FFFFFF;
+  --foreground: #000000;
+  --text-primary: #FFFFFF;
+  --text-secondary: #000000;
+  font-family: Helvetica, sans-serif;
+}
+
+.btn {
+  align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border: none;
+  border-radius: 100vmax;
+  background-color: #e8e8e8;
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  font-weight: 600;
+  font-family: inherit;
+  place-content: center;
+  margin-block: auto;
+  padding: 0.8rem 2rem;
+}
+.btn svg {
+  width: 25px;
+  height: 25px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--text-primary);
+}
+
+@media (max-width: 996px) {
+  #whatsApp {
+    display: none;
+  }
+}
+#whatsApp {
+  grid-area: whatsApp;
+}
+
+@media (max-width: 996px) {
+  #navToggler {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: grid !important;
+  }
+}
+#navToggler {
+  border: none;
+  background: transparent;
+  color: #FFFFFF;
+  display: none;
+  place-content: center;
+  grid-area: navToggler;
+}
+#navToggler svg {
+  width: 40px;
+  height: 40px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+@media (min-width: 996px) {
+  .navigation {
+    align-items: center;
+    display: flex !important;
+  }
+  .navigation .navbar {
+    margin: 0 !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    display: flex !important;
+    padding-block: 0 !important;
+  }
+  .navigation .navbar .nav {
+    display: flex !important;
+  }
+  .navigation .navbar .nav li > a {
+    color: var(--text-primary) !important;
+    padding: 0.8rem 1rem;
+  }
+}
+.navigation {
+  color: var(--foreground);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "logo navToggler" "navbar navbar" "whatsApp whatsApp";
+}
+.navigation .navbar {
+  box-shadow: 0 0 2px;
+  border-radius: 1vmax;
+  background-color: var(--background);
+  display: none;
+  grid-area: navbar;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.navigation .navbar .nav {
+  display: grid;
+  padding: 0;
+}
+.navigation .navbar .nav li {
+  list-style-type: none;
+  list-style: none;
+}
+.navigation .navbar .nav li a {
+  color: inherit;
+  display: block;
+  padding-block: 1rem;
+  text-decoration: none;
+}
+
+/**
+*   Colors
+**/
+.c-prime {
+  color: var(--primary);
+}
+
+/**
+*   Logo
+**/
+.logo {
+  color: var(--text-primary);
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: Helvetica, sans-serif;
+  grid-area: logo;
+  text-transform: uppercase;
+}
+
+/**
+*   Contaienrs
+**/
+@media (max-width: 996px) {
+  .container {
+    width: 100% !important;
+  }
+}
+.container {
+  width: 80%;
+  padding-inline: 1rem;
+  overflow: hidden;
+}
+
+/**
+*   Cards
+**/
+.card-tray {
+  display: flex;
+  flex-wrap: wrap;
+  margin-block: 4rem;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 16em !important;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 600px) {
+  .card {
+    max-width: 11em !important;
+  }
+}
+.card {
+  max-width: 250px;
+  border-top-left-radius: 3vmax;
+  border-top-right-radius: 1vmax;
+  border-bottom-left-radius: 1vmax;
+  border-bottom-right-radius: 1vmax;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.card .card-header {
+  display: block;
+  margin-bottom: 1rem;
+}
+.card .card-header svg {
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 2vmax;
+  border-top-right-radius: 1vmax;
+  border-bottom-left-radius: 1vmax;
+  border-bottom-right-radius: 1vmax;
+  padding: 1rem;
+}
+.card .card-body {
+  display: block;
+}
+.card .card-body h3 {
+  font-weight: 600;
+}
+.card .card-body p {
+  padding-block: 1rem;
+}
+.card .card-footer {
+  display: block;
+}
+.card .card-footer label {
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.card:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+.card:hover .card-header > svg {
+  background-color: #FFFFFF;
+}
+.card:hover .card-footer > label {
+  color: #224c8d;
+  text-shadow: 5px 5px 0px #FFFFFF;
+}
+
+/**
+*   Display
+**/
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+/**
+*   Padding and Margin
+**/
+.my-auto {
+  margin-block: auto;
+}
+
+.mx-auto {
+  margin-inline: auto;
+}
+
+.py-1 {
+  padding-block: 1rem;
+}
+
+.px-1 {
+  padding-inline: 1rem;
+}
+
+/**
+*   Titles
+**/
+.title {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-block: 2rem;
+  text-align: center;
+}
+
+.subtitle {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  background: transparent;
+  position: absolute;
+}
+
+.hero {
+  width: 100%;
+  min-height: 50vh;
+  max-height: 800px;
+  position: relative;
+  z-index: -1;
+}
+.hero img {
+  width: 100%;
+  min-height: inherit;
+  max-height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom right;
+     object-position: bottom right;
+}
+.hero #heroContainer {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: grid;
+  place-content: cemter;
+  top: 58%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.hero #heroContainer #heroText {
+  max-width: 65ch;
+  display: flex;
+  flex-direction: column;
+}
+.hero #heroContainer #heroText #heroTitle {
+  color: #FFFFFF;
+  font-size: clamp(1rem, 9.5vw, 3rem);
+  font-weight: 600;
+}
+.hero #heroContainer #heroText #heroSlug {
+  max-width: 35ch;
+  color: #FFFFFF;
+  font-size: clamp(0.8rem, 6vw, 1rem);
+}
+.hero #heroContainer #heroText .btnContainer {
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  .hero #heroContainer #heroText .clients {
+    display: none !important;
+  }
+}
+.hero #heroContainer #heroText .clients {
+  display: block;
+}
+.hero #heroContainer #heroText .clients h6 {
+  align-items: center;
+  color: #FFFFFF;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 12px;
+}
+.hero #heroContainer #heroText .clients h6 span {
+  width: 2rem;
+  height: 0.05rem;
+  background-color: #FFFFFF;
+  display: flex;
+}
+.hero #heroContainer #heroText .clients #clientLogos {
+  display: flex;
+}
+.hero #heroContainer #heroText .clients #clientLogos .client-logo {
+  width: 150px;
+  height: 50px;
+  display: block;
+}
+.hero #heroContainer #heroText .clients #clientLogos .client-logo img,
+.hero #heroContainer #heroText .clients #clientLogos .client-logo svg {
+  -o-object-fit: contain;
+     object-fit: contain;
+  fill: #FFF;
+}
+
+.hero::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+section.services {
+  display: block;
+}
+section.services #servicesContainer {
+  display: flex;
+  flex-direction: column;
+}
+section.services #servicesContainer #servicesHeaderText {
+  display: block;
+  padding-block: 1rem;
+  text-align: center;
+}
+
+section.portfolio {
+  background-color: var(--primary);
+  color: #FFFFFF;
+  padding-block: 3rem;
+  text-align: center;
+}
+section.portfolio .filters {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+section.portfolio .filters .active {
+  background-color: orange;
+}
+@media (max-width: 600px) {
+  section.portfolio .projects-grid {
+    padding-inline: 2em;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+  }
+  section.portfolio .projects-grid .project-item {
+    scroll-snap-align: center;
+  }
+}
+section.portfolio .projects-grid {
+  display: flex;
+  gap: 2rem;
+  padding-block: 2rem;
+  overflow: auto;
+}
+section.portfolio .projects-grid .project-item {
+  width: 320px;
+  height: 240px;
+  border-radius: 15px;
+  background-color: aquamarine;
+  display: grid;
+}
+section.portfolio .projects-grid .project-item a {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+section.portfolio .projects-grid .project-item a img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,189 @@
+@import 'sass/base/base';
+@import 'sass/components/buttons';
+@import 'sass/generic/normalize';
+@import 'sass/components/navigation';
+@import 'sass/components/utilities';
+
+.header {
+    width: 100%;
+    background: transparent;
+    position: absolute;
+}
+
+.hero {
+    width: 100%;
+    min-height: 50vh;
+    max-height: 800px;
+    position: relative;
+    z-index: -1;
+
+    img {
+        width: 100%;
+        min-height: inherit;
+        max-height: inherit;
+        object-fit: cover;
+        object-position: bottom right;
+    }
+
+    #heroContainer {
+        height: max-content;
+        display: grid;
+        place-content: cemter;
+        top: 58%;
+        bottom: 50%;
+        left: 0;
+        right: 0;
+        position: absolute;
+
+
+        #heroText {
+            max-width: 65ch;
+            display: flex;
+            flex-direction: column;
+
+            #heroTitle {
+                color: #FFFFFF;
+                font-size: clamp(1rem, 9.5vw, 3rem);
+                font-weight: 600;
+            }
+
+            #heroSlug {
+                max-width: 35ch;
+                color: #FFFFFF;
+                font-size: clamp(.8rem, 6vw, 1rem);
+            }
+
+            .btnContainer {
+                display: flex;
+                gap: 1rem;
+            }
+
+            @media (max-width: 768px) {
+                .clients {
+                    display: none !important;
+                }
+            }
+
+            .clients {
+                display: block;
+
+                h6 {
+                    align-items: center;
+                    color: #FFFFFF;
+                    display: flex;
+                    gap: .5rem;
+                    font-size: 12px;
+
+                    span {
+                        width: 2rem;
+                        height: .05rem;
+                        background-color: #FFFFFF;
+                        display: flex;
+                    }
+                }
+
+                #clientLogos {
+                    display: flex;
+
+                    .client-logo {
+                        width: 150px;
+                        height: 50px;
+                        display: block;
+
+                        img,
+                        svg {
+                            object-fit: contain;
+                            fill: #FFF;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+.hero::before {
+    content: "";
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+section.services {
+    display: block;
+
+    #servicesContainer {
+        display: flex;
+        flex-direction: column;
+
+        #servicesHeaderText {
+            display: block;
+            padding-block: 1rem;
+            text-align: center;
+        }
+    }
+}
+
+section.portfolio {
+    background-color: var(--primary);
+    color: #FFFFFF;
+    padding-block: 3rem;
+    text-align: center;
+
+    .filters {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 1rem;
+
+        .active {
+            background-color: orange;
+        }
+
+    }
+
+    @media (max-width:600px) {
+        .projects-grid {
+            padding-inline: 2em;
+            -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+
+            .project-item {
+                scroll-snap-align: center;
+            }
+        }
+    }
+
+    .projects-grid {
+        display: flex;
+        gap: 2rem;
+        padding-block: 2rem;
+        overflow: auto;
+
+        .project-item {
+            width: 320px;
+            height: 240px;
+            border-radius: 15px;
+            background-color: aquamarine;
+            display: grid;
+
+            a {
+                width: inherit;
+                height: inherit;
+                border-radius: inherit;
+
+                img {
+                    width: inherit;
+                    height: inherit;
+                    border-radius: inherit;
+                    object-fit: cover;
+                }
+
+            }
+        }
+    }
+}

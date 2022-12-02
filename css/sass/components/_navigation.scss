@@ -1,0 +1,62 @@
+@media (min-width:996px) {
+    .navigation {
+        align-items: center;
+        display: flex !important;
+
+        .navbar {
+            margin: 0 !important;
+            box-shadow: none !important;
+            background-color: transparent !important;
+            display: flex !important;
+            padding-block: 0 !important;
+
+            .nav {
+                display: flex !important;
+
+                li>a {
+                    color: var(--text-primary) !important;
+                    padding: 0.8rem 1rem;
+                }
+            }
+        }
+    }
+}
+
+.navigation {
+    color: var(--foreground);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+        "logo navToggler"
+        "navbar navbar"
+        "whatsApp whatsApp"
+    ;
+
+    .navbar {
+        box-shadow: 0 0 2px;
+        border-radius: 1vmax;
+        background-color: var(--background);
+        display: none;
+        grid-area: navbar;
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+        .nav {
+            display: grid;
+            padding: 0;
+
+            li {
+                list-style-type: none;
+                list-style: none;
+
+                a {
+                    color: inherit;
+                    display: block;
+                    padding-block: 1rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+}
