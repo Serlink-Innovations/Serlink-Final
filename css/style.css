@@ -172,7 +172,7 @@ video {
   }
 }
 .container {
-  width: 80%;
+  max-width: 1320px;
   padding-inline: 1rem;
   overflow: hidden;
 }
@@ -180,7 +180,15 @@ video {
 /**
 *   Cards
 **/
-.card-tray {
+.card-tray-grid {
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-block: 4rem;
+}
+
+.card-tray-flex {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -198,6 +206,17 @@ video {
     max-width: 11em !important;
   }
 }
+.card-title {
+  font-size: clamp(1rem, 10vw, 20px);
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: clamp(0.8rem, 10vw, 15px);
+  font-weight: bold;
+  margin-block: 0.2rem;
+}
+
 .card {
   max-width: 250px;
   border-top-left-radius: 3vmax;
@@ -256,6 +275,60 @@ video {
   text-shadow: 5px 5px 0px #FFFFFF;
 }
 
+.member-card {
+  width: 295px;
+  max-height: 300px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-inline: auto;
+}
+.member-card .member-picture {
+  max-width: inherit;
+  height: 300px;
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+.member-card .member-info {
+  max-width: 90%;
+  border: none;
+  box-shadow: 0 0 1px;
+  bottom: -2rem;
+  left: 0;
+  right: 0;
+  background-color: var(--background);
+  border-radius: 15px;
+  display: grid;
+  margin: auto;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  margin-inline: 1rem;
+  position: absolute;
+  text-align: center;
+  padding-top: 1.2rem;
+}
+.member-card .member-info .member-social {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  position: absolute;
+  top: -1.2rem;
+  right: 0;
+  left: 0;
+}
+.member-card .member-info .member-social svg {
+  width: 35px;
+  height: 35px;
+  border-radius: 100vmax;
+  background-color: var(--primary);
+  fill: var(--text-primary);
+  padding: 0.5rem;
+}
+
 /**
 *   Display
 **/
@@ -304,7 +377,7 @@ video {
 .title::before {
   content: "";
   width: 40px;
-  height: 0.5rem;
+  height: 0.3rem;
   display: flex;
   background-color: orange;
   margin: auto;
