@@ -40,7 +40,7 @@
 .card-tray {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: .5rem;
     margin-block: 4rem;
     justify-content: space-between;
 
@@ -176,7 +176,7 @@
 .title::before {
     content: "";
     width: 40px;
-    height: 0.4rem;
+    height: 0.5rem;
     display: flex;
     background-color: orange;
     margin: auto;
@@ -198,7 +198,7 @@
     position: absolute;
     right: 0;
     left: 0;
-    top: 1.8rem;
+    top: 1.7rem;
     bottom: 0;
 }
 
