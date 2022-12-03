@@ -85,6 +85,10 @@ body {
   min-height: 100vh;
 }
 
+strong {
+  font-weight: bold;
+}
+
 img,
 picture,
 svg,
@@ -595,4 +599,94 @@ section.portfolio .projects-grid .project-item a img {
   border-radius: inherit;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+section.team {
+  display: block;
+  margin-block: 4rem;
+}
+
+.footer {
+  box-shadow: 0 0 1px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+.footer #footer__Container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-block: 4rem;
+}
+.footer #footer__Container h6 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.footer #footer__Container p {
+  line-height: 1.5;
+}
+.footer #footer__Container .company__Info {
+  display: flex;
+  flex-direction: column;
+}
+.footer #footer__Container .company__Info h5 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.footer #footer__Container .company__Info p {
+  font-size: 14px;
+  max-width: inherit;
+  margin-bottom: 1rem;
+  line-height: 2;
+}
+.footer #footer__Container .company__Info label {
+  font-size: 14px;
+  line-height: 2;
+}
+.footer #footer__Container .footer__Nav {
+  display: flex;
+  flex-direction: column;
+}
+.footer #footer__Container .footer__Nav h6 {
+  margin-bottom: 1rem;
+}
+.footer #footer__Container .footer__Nav ul {
+  display: block;
+}
+.footer #footer__Container .footer__Nav ul li {
+  list-style-type: none;
+  list-style: none;
+}
+.footer #footer__Container .footer__Nav ul li a {
+  color: var(--text-secondary);
+  display: flex;
+  text-decoration: none;
+  padding-block: 0.5rem;
+}
+.footer #footer__Container .social {
+  display: block;
+}
+.footer #footer__Container .social p {
+  margin-bottom: 1rem;
+}
+.footer #footer__Container .social .social__Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.footer #footer__Container .social .social__Container svg {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 100vmax;
+  background-color: var(--primary);
+  fill: #FFFFFF;
+  padding: 0.5rem;
+}
+.footer .copyright {
+  width: 100%;
+  display: flex;
+  background-color: var(--primary);
+  color: #FFFFFF;
+  padding: 1rem;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

@@ -215,3 +215,112 @@ section.portfolio {
         }
     }
 }
+
+section.team {
+    display: block;
+    margin-block: 4rem;
+}
+
+.footer {
+    box-shadow: 0 0 1px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+
+    #footer__Container {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        margin-block: 4rem;
+
+        h6 {
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .company__Info {
+            display: flex;
+            flex-direction: column;
+
+            h5 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 14px;
+                max-width: inherit;
+                margin-bottom: 1rem;
+                line-height: 2;
+            }
+
+            label {
+                font-size: 14px;
+                line-height: 2;
+            }
+
+        }
+
+        .footer__Nav {
+            display: flex;
+            flex-direction: column;
+
+            h6 {
+                margin-bottom: 1rem;
+            }
+
+            ul {
+                display: block;
+
+                li {
+                    list-style-type: none;
+                    list-style: none;
+
+                    a {
+                        color: var(--text-secondary);
+                        display: flex;
+                        text-decoration: none;
+                        padding-block: .5rem;
+                    }
+                }
+            }
+        }
+
+        .social {
+            display: block;
+
+            p {
+                margin-bottom: 1rem;
+            }
+
+            .social__Container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+                svg {
+                    width: 48px !important;
+                    height: 48px !important;
+                    border-radius: 100vmax;
+                    background-color: var(--primary);
+                    fill: #FFFFFF;
+                    padding: .5rem;
+                }
+            }
+        }
+
+    }
+
+    .copyright {
+        width: 100%;
+        display: flex;
+        background-color: var(--primary);
+        color: #FFFFFF;
+        padding: 1rem;
+        justify-content: center;
+    }
+}
