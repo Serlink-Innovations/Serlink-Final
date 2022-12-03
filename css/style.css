@@ -629,7 +629,7 @@ section.team {
   display: flex;
   flex-direction: column;
 }
-.footer #footer__Container .company__Info h5 {
+.footer #footer__Container .company__Info h4 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -658,6 +658,9 @@ section.team {
   list-style: none;
 }
 .footer #footer__Container .footer__Nav ul li a {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   color: var(--text-secondary);
   display: flex;
   text-decoration: none;

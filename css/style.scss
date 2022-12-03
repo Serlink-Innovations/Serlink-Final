@@ -246,7 +246,7 @@ section.team {
             display: flex;
             flex-direction: column;
 
-            h5 {
+            h4 {
                 font-size: 1.5rem;
                 margin-bottom: 1rem;
             }
@@ -281,6 +281,7 @@ section.team {
                     list-style: none;
 
                     a {
+                        width: max-content;
                         color: var(--text-secondary);
                         display: flex;
                         text-decoration: none;
