@@ -4,6 +4,12 @@
 @import 'sass/components/navigation';
 @import 'sass/components/utilities';
 
+html,
+body {
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+
 .header {
     width: 100%;
     background: transparent;
