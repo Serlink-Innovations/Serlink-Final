@@ -18,7 +18,7 @@ body {
 
 .hero {
     width: 100%;
-    min-height: 50vh;
+    min-height: 75vh;
     max-height: 800px;
     position: relative;
     z-index: -1;
@@ -35,8 +35,8 @@ body {
         height: max-content;
         display: grid;
         place-content: cemter;
-        top: 58%;
-        bottom: 50%;
+        top: 0;
+        bottom: 0;
         left: 0;
         right: 0;
         position: absolute;
