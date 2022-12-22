@@ -66,6 +66,30 @@
   height: 40px;
 }
 
+.viewmore_link {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: var(----text-primary);
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  margin: 0 !important;
+  text-decoration: none;
+}
+
+.viewmore_link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.viewmore_link::after {
+  content: url("/assets/icons/211620_b_right_arrow_icon.svg");
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
 *,
 *::before,
 *::after {
