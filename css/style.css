@@ -441,6 +441,7 @@ body {
 }
 .hero {
   width: 100%;
+  margin-bottom: 2rem;
   min-height: 75vh;
   max-height: 800px;
   position: relative;
