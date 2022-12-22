@@ -434,9 +434,9 @@ body {
   position: absolute;
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .hero {
-    max-height: 50vh !important;
+    min-height: 50vh !important;
   }
 }
 .hero {
