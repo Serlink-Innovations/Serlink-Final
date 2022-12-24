@@ -384,6 +384,11 @@ video {
 /**
 *   Gallery Grid
 **/
+@media (max-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)) !important;
+  }
+}
 .gallery-grid {
   display: grid;
   border-collapse: collapse;
@@ -391,7 +396,7 @@ video {
 }
 .gallery-grid .grid-item {
   max-width: inherit;
-  min-height: 300px;
+  min-height: inherit;
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: grid;
   place-content: center;
@@ -777,7 +782,7 @@ section#projects {
 }
 section#projects h1 {
   display: block;
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 10vw, 3rem);
   font-weight: 600;
   font-family: Helvetica, sans-serif;
   text-align: center;

@@ -226,6 +226,12 @@
 /**
 *   Gallery Grid
 **/
+@media (max-width: 600px) {
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)) !important;
+    }
+}
+
 .gallery-grid {
     display: grid;
     border-collapse: collapse;
@@ -233,7 +239,7 @@
 
     .grid-item {
         max-width: inherit;
-        min-height: 300px;
+        min-height: inherit;
         border: 1px solid rgba($color: #000000, $alpha: 0.1);
         display: grid;
         place-content: center;
