@@ -508,7 +508,7 @@ body {
   font-weight: 600;
 }
 .hero #heroContainer #heroText #heroSlug {
-  max-width: 35ch;
+  max-width: 55ch;
   color: #FFFFFF;
   font-size: clamp(0.8rem, 6vw, 1rem);
 }
