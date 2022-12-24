@@ -14,7 +14,6 @@ body {
 .header {
     width: 100%;
     background: transparent;
-    position: absolute;
 }
 
 @media (max-width: 400px) {
@@ -30,6 +29,7 @@ body {
     max-height: 800px;
     position: relative;
     z-index: -1;
+    top: -90px !important;
 
     img {
         width: 100%;
@@ -338,4 +338,11 @@ section.team {
         padding: 1rem;
         justify-content: center;
     }
+}
+
+/**
+*   Portfolio Page Customization Section
+**/
+section.projects {
+    position: relative;
 }

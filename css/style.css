@@ -460,7 +460,6 @@ body {
 .header {
   width: 100%;
   background: transparent;
-  position: absolute;
 }
 
 @media (max-width: 400px) {
@@ -475,6 +474,7 @@ body {
   max-height: 800px;
   position: relative;
   z-index: -1;
+  top: -90px !important;
 }
 .hero img {
   width: 100%;
@@ -740,4 +740,11 @@ section.team {
   color: #FFFFFF;
   padding: 1rem;
   justify-content: center;
+}
+
+/**
+*   Portfolio Page Customization Section
+**/
+section.projects {
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
