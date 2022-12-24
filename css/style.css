@@ -197,6 +197,10 @@ video {
   grid-area: logo;
   text-transform: uppercase;
 }
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /**
 *   Contaienrs
