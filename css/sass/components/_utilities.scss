@@ -228,7 +228,7 @@
 **/
 @media (max-width: 600px) {
     .gallery-grid {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)) !important;
+        grid-template-columns: repeat(auto-fill, minmax(125px, 1fr)) !important;
     }
 }
 
