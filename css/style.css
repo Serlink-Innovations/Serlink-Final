@@ -791,4 +791,48 @@ section#projects-gallery h1 {
 section#projects-gallery p {
   text-align: center;
   margin-block: 2rem;
+}
+section#projects-gallery #gallery {
+  display: block;
+}
+section#projects-gallery #gallery .live,
+section#projects-gallery #gallery .practice {
+  display: block;
+}
+section#projects-gallery #gallery .live h2,
+section#projects-gallery #gallery .practice h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-block: 2rem;
+  position: relative;
+  text-align: center;
+}
+section#projects-gallery #gallery .live h2::before,
+section#projects-gallery #gallery .practice h2::before {
+  content: "";
+  width: 40px;
+  height: 0.3rem;
+  display: flex;
+  background-color: orange;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 2rem;
+  bottom: 0;
+  z-index: 1;
+}
+section#projects-gallery #gallery .live h2::after,
+section#projects-gallery #gallery .practice h2::after {
+  content: "";
+  width: 120px;
+  height: 0.1rem;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 2rem;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */
