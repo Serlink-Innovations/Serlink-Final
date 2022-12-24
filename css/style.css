@@ -382,6 +382,29 @@ video {
 }
 
 /**
+*   Gallery Grid
+**/
+.gallery-grid {
+  display: grid;
+  border-collapse: collapse;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.gallery-grid .grid-item {
+  max-width: inherit;
+  min-height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+.gallery-grid .grid-item img {
+  transition: ease-in 500ms;
+}
+.gallery-grid .grid-item > img:hover {
+  transform: scale(1.1);
+}
+
+/**
 *   Padding and Margin
 **/
 .my-auto {
@@ -460,6 +483,10 @@ body {
 .header {
   width: 100%;
   background: transparent;
+}
+
+.content {
+  padding: 2rem;
 }
 
 @media (max-width: 400px) {
@@ -745,6 +772,18 @@ section.team {
 /**
 *   Portfolio Page Customization Section
 **/
-section.projects {
-  position: relative;
+section#projects {
+  background-color: var(--background);
+}
+section#projects h1 {
+  display: block;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  margin-block: 1rem;
+}
+section#projects p {
+  text-align: center;
+  margin-block: 2rem;
 }/*# sourceMappingURL=style.css.map */
