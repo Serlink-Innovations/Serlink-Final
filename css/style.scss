@@ -12,28 +12,14 @@ body {
 }
 
 .header {
+    border-bottom: 2px solid rgba($color: #000000, $alpha: 0.1);
+}
+
+#header-main {
     width: 100%;
-    background: transparent;
-}
-
-.content {
-    padding: 2rem;
-}
-
-@media (max-width: 400px) {
-    .hero {
-        min-height: 50vh !important;
-    }
-}
-
-.hero {
-    width: 100%;
-    margin-bottom: 2rem;
-    min-height: 75vh;
+    min-height: 50ch;
     max-height: 800px;
     position: relative;
-    z-index: -1;
-    margin-top: -90px !important;
 
     img {
         width: 100%;
@@ -43,92 +29,98 @@ body {
         object-position: bottom right;
     }
 
-    #heroContainer {
-        height: max-content;
-        display: grid;
-        place-content: cemter;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
+    .hero {
+        width: 100%;
+        height: 100%;
         position: absolute;
+        top: 0;
+        z-index: 1;
 
+        #heroContainer {
+            height: 100%;
+            align-items: center;
+            display: grid;
 
-        #heroText {
-            max-width: 65ch;
-            display: flex;
-            flex-direction: column;
-
-            #heroTitle {
-                color: #FFFFFF;
-                font-size: clamp(1rem, 9.5vw, 3rem);
-                font-weight: 600;
-            }
-
-            #heroSlug {
-                max-width: 55ch;
-                color: #FFFFFF;
-                font-size: clamp(.8rem, 6vw, 1rem);
-            }
-
-            .btnContainer {
+            #heroText {
+                max-width: 65ch;
                 display: flex;
-                gap: 1rem;
-            }
+                flex-direction: column;
 
-            @media (max-width: 768px) {
-                .clients {
-                    display: none !important;
-                }
-            }
-
-            .clients {
-                display: block;
-
-                h6 {
-                    align-items: center;
+                #heroTitle {
                     color: #FFFFFF;
-                    display: flex;
-                    gap: .5rem;
-                    font-size: 12px;
+                    font-size: clamp(1rem, 9.5vw, 3rem);
+                    font-weight: 600;
+                }
 
-                    span {
-                        width: 2rem;
-                        height: .05rem;
-                        background-color: #FFFFFF;
-                        display: flex;
+                #heroSlug {
+                    max-width: 55ch;
+                    color: #FFFFFF;
+                    font-size: clamp(.8rem, 6vw, 1rem);
+                }
+
+                .btnContainer {
+                    display: flex;
+                    gap: 1rem;
+                }
+
+                @media (max-width: 768px) {
+                    .clients {
+                        display: none !important;
                     }
                 }
 
-                #clientLogos {
-                    display: flex;
+                .clients {
+                    display: block;
 
-                    .client-logo {
-                        width: 150px;
-                        height: 50px;
-                        display: block;
+                    h6 {
+                        align-items: center;
+                        color: #FFFFFF;
+                        display: flex;
+                        gap: .5rem;
+                        font-size: 12px;
 
-                        img,
-                        svg {
-                            object-fit: contain;
-                            fill: #FFF;
+                        span {
+                            width: 2rem;
+                            height: .05rem;
+                            background-color: #FFFFFF;
+                            display: flex;
                         }
                     }
-                }
 
+                    #clientLogos {
+                        display: flex;
+
+                        .client-logo {
+                            width: 150px;
+                            height: 50px;
+                            display: block;
+
+                            img,
+                            svg {
+                                object-fit: contain;
+                                fill: #FFF;
+                            }
+                        }
+                    }
+
+                }
             }
         }
     }
 
 }
 
-.hero::before {
+#header-main::before {
     content: "";
-    background-color: rgba($color: #000000, $alpha: 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     position: absolute;
+}
+
+.content {
+    padding: 2rem;
 }
 
 section.about {
