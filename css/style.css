@@ -777,10 +777,10 @@ section.team {
 /**
 *   Portfolio Page Customization Section
 **/
-section#projects {
+section#projects-gallery {
   background-color: var(--background);
 }
-section#projects h1 {
+section#projects-gallery h1 {
   display: block;
   font-size: clamp(1.5rem, 10vw, 3rem);
   font-weight: 600;
@@ -788,7 +788,7 @@ section#projects h1 {
   text-align: center;
   margin-block: 1rem;
 }
-section#projects p {
+section#projects-gallery p {
   text-align: center;
   margin-block: 2rem;
 }/*# sourceMappingURL=style.css.map */
