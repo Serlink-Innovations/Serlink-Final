@@ -229,8 +229,10 @@ video {
   align-items: center;
   display: grid;
   gap: 3rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   margin-block: 4rem;
+  place-content: center;
+  justify-content: center;
 }
 
 .card-tray-flex {
@@ -322,8 +324,8 @@ video {
 }
 
 .member-card {
-  width: 295px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: 250px;
   box-shadow: 0 0 2px;
   border-radius: 15px;
   display: flex;
@@ -332,8 +334,8 @@ video {
   margin-inline: auto;
 }
 .member-card .member-picture {
-  max-width: inherit;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 15px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -357,6 +359,13 @@ video {
   position: absolute;
   text-align: center;
   padding-top: 1.2rem;
+}
+.member-card .member-info .card-title {
+  font-size: clamp(1rem, 10vw, 1.1rem);
+}
+.member-card .member-info .card-subtitle {
+  font-size: 1rem;
+  font-weight: 300;
 }
 .member-card .member-info .member-social {
   display: flex;
