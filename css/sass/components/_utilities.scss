@@ -241,7 +241,7 @@
     display: grid;
     height: auto;
     gap: 1rem;
-    margin-block: 2rem;
+    margin-block: 3rem;
 
     .member-card-wide-content {
         display: flex;
@@ -253,6 +253,8 @@
         border-radius: 100vmax;
         display: block;
         max-width: 400px;
+        min-width: 400px;
+        min-height: 400px;
         max-height: 400px;
         overflow: hidden;
         margin: auto;
