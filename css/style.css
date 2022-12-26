@@ -389,6 +389,15 @@ video {
   .members-card-wide {
     grid-template-columns: 1fr !important;
   }
+  .members-card-wide-inverse {
+    grid-template-areas: "inverse-pic" "inverse-content";
+  }
+  .members-card-wide-inverse #inverse-pic {
+    grid-area: inverse-pic;
+  }
+  .members-card-wide-inverse #inverse-content {
+    grid-area: inverse-content;
+  }
 }
 .members-card-wide-regular {
   grid-template-columns: 1fr 2fr;

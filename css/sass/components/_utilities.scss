@@ -227,6 +227,21 @@
     .members-card-wide {
         grid-template-columns: 1fr !important;
     }
+
+    .members-card-wide-inverse {
+        grid-template-areas:
+            "inverse-pic"
+            "inverse-content"
+        ;
+
+        #inverse-pic {
+            grid-area: inverse-pic;
+        }
+
+        #inverse-content {
+            grid-area: inverse-content;
+        }
+    }
 }
 
 .members-card-wide-regular {
