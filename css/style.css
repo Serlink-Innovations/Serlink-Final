@@ -725,13 +725,13 @@ body {
 }
 
 .content {
-  padding: 2rem;
+  padding-block: 3rem;
 }
 
 section.about {
   color: var(--foreground);
   display: block;
-  margin-block: 2rem;
+  padding-block: 3rem;
 }
 section.about .aboutContent {
   display: grid;
@@ -754,6 +754,7 @@ section.about .aboutContent #about-contentRight > button {
 
 section.services {
   display: block;
+  padding-block: 3rem;
 }
 section.services #servicesContainer {
   display: flex;
@@ -818,7 +819,7 @@ section.portfolio .projects-grid .project-item a img {
 
 section.team {
   display: block;
-  margin-block: 4rem;
+  padding-block: 3rem;
 }
 
 .footer {

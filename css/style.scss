@@ -148,13 +148,13 @@ body {
 }
 
 .content {
-    padding: 2rem;
+    padding-block: 3rem;
 }
 
 section.about {
     color: var(--foreground);
     display: block;
-    margin-block: 2rem;
+    padding-block: 3rem;
 
     .aboutContent {
         display: grid;
@@ -181,6 +181,7 @@ section.about {
 
 section.services {
     display: block;
+    padding-block: 3rem;
 
     #servicesContainer {
         display: flex;
@@ -256,7 +257,7 @@ section.portfolio {
 
 section.team {
     display: block;
-    margin-block: 4rem;
+    padding-block: 3rem;
 }
 
 .footer {
