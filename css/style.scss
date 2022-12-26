@@ -154,7 +154,8 @@ body {
 section.about {
     color: var(--foreground);
     display: block;
-    margin-block: 2rem;
+    margin-block: 3rem;
+    padding-block: 4rem;
 
     .aboutContent {
         display: grid;
@@ -181,6 +182,8 @@ section.about {
 
 section.services {
     display: block;
+    margin-block: 3rem;
+    padding-block: 4rem;
 
     #servicesContainer {
         display: flex;
@@ -197,7 +200,8 @@ section.services {
 section.portfolio {
     background-color: var(--primary);
     color: #FFFFFF;
-    padding-block: 3rem;
+    margin-block: 3rem;
+    padding-block: 4rem;
     text-align: center;
 
     .filters {
@@ -256,7 +260,8 @@ section.portfolio {
 
 section.team {
     display: block;
-    margin-block: 4rem;
+    margin-block: 3rem;
+    padding-block: 4rem;
 }
 
 .footer {
