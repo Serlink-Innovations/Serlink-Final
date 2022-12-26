@@ -223,6 +223,94 @@
     }
 }
 
+@media(max-width: 800px) {
+    .members-card-wide {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+.members-card-wide-regular {
+    grid-template-columns: 1fr 2fr;
+}
+
+.members-card-wide-inverse {
+    grid-template-columns: 2fr 1fr;
+}
+
+.members-card-wide {
+    display: grid;
+    height: auto;
+    gap: 1rem;
+    margin-block: 2rem;
+
+    .member-card-wide-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .members-card-picture {
+        border-radius: 100vmax;
+        display: block;
+        max-width: 400px;
+        max-height: 400px;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .member-title {
+        display: flex;
+        flex-direction: column;
+
+        .card-title {
+            font-size: 2rem;
+        }
+
+        .card-subtitle {
+            color: cornflowerblue;
+            font-weight: 100;
+            font-size: 1.2rem;
+        }
+
+    }
+
+    .member-bio {
+        line-height: 1.5;
+    }
+
+    .member-skills {
+        display: flex;
+        gap: .5rem;
+        flex-wrap: wrap;
+
+        .skill-pill {
+            border-radius: 100vmax;
+            background-color: var(--primary);
+            color: #FFFFFF;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: .5rem 1rem;
+        }
+
+    }
+
+    .member-social {
+        display: flex;
+        gap: .5rem;
+        flex-wrap: wrap;
+
+        svg {
+            width: 50px;
+            height: 50px;
+            border-radius: 100vmax;
+            background-color: var(--primary);
+            fill: #FFFFFF;
+            padding: .6rem;
+        }
+    }
+
+}
+
 /**
 *   Display
 **/

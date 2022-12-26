@@ -7,6 +7,7 @@
 
 html,
 body {
+    font-size: 16px;
     scroll-behavior: smooth;
     transition: 1s;
 }
@@ -401,4 +402,15 @@ section#projects-gallery {
             }
         }
     }
+}
+
+/**
+*   Our Team Page Customization Section
+**/
+section.members {
+    display: block;
+}
+
+.members_container {
+    display: block;
 }

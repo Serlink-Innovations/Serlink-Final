@@ -385,6 +385,80 @@ video {
   padding: 0.5rem;
 }
 
+@media (max-width: 800px) {
+  .members-card-wide {
+    grid-template-columns: 1fr !important;
+  }
+}
+.members-card-wide-regular {
+  grid-template-columns: 1fr 2fr;
+}
+
+.members-card-wide-inverse {
+  grid-template-columns: 2fr 1fr;
+}
+
+.members-card-wide {
+  display: grid;
+  height: auto;
+  gap: 1rem;
+  margin-block: 2rem;
+}
+.members-card-wide .member-card-wide-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.members-card-wide .members-card-picture {
+  border-radius: 100vmax;
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  margin: auto;
+}
+.members-card-wide .member-title {
+  display: flex;
+  flex-direction: column;
+}
+.members-card-wide .member-title .card-title {
+  font-size: 2rem;
+}
+.members-card-wide .member-title .card-subtitle {
+  color: cornflowerblue;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+.members-card-wide .member-bio {
+  line-height: 1.5;
+}
+.members-card-wide .member-skills {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.members-card-wide .member-skills .skill-pill {
+  border-radius: 100vmax;
+  background-color: var(--primary);
+  color: #FFFFFF;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+}
+.members-card-wide .member-social {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.members-card-wide .member-social svg {
+  width: 50px;
+  height: 50px;
+  border-radius: 100vmax;
+  background-color: var(--primary);
+  fill: #FFFFFF;
+  padding: 0.6rem;
+}
+
 /**
 *   Display
 **/
@@ -517,6 +591,7 @@ video {
 
 html,
 body {
+  font-size: 16px;
   scroll-behavior: smooth;
   transition: 1s;
 }
@@ -862,4 +937,15 @@ section#projects-gallery #gallery .practice h2::after {
   margin: auto;
   top: 2rem;
   bottom: 0;
+}
+
+/**
+*   Our Team Page Customization Section
+**/
+section.members {
+  display: block;
+}
+
+.members_container {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
