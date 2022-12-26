@@ -731,8 +731,7 @@ body {
 section.about {
   color: var(--foreground);
   display: block;
-  margin-block: 3rem;
-  padding-block: 4rem;
+  margin-block: 2rem;
 }
 section.about .aboutContent {
   display: grid;
@@ -755,8 +754,6 @@ section.about .aboutContent #about-contentRight > button {
 
 section.services {
   display: block;
-  margin-block: 3rem;
-  padding-block: 4rem;
 }
 section.services #servicesContainer {
   display: flex;
@@ -771,8 +768,7 @@ section.services #servicesContainer #servicesHeaderText {
 section.portfolio {
   background-color: var(--primary);
   color: #FFFFFF;
-  margin-block: 3rem;
-  padding-block: 4rem;
+  padding-block: 3rem;
   text-align: center;
 }
 section.portfolio .filters {
@@ -822,8 +818,7 @@ section.portfolio .projects-grid .project-item a img {
 
 section.team {
   display: block;
-  margin-block: 3rem;
-  padding-block: 4rem;
+  margin-block: 4rem;
 }
 
 .footer {
