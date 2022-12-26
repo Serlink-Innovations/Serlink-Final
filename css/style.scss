@@ -12,8 +12,35 @@ body {
     transition: 1s;
 }
 
+.sticky {
+    max-width: 100% !important;
+    background-color: var(--background) !important;
+    position: fixed !important;
+    top: 0;
+    transition: 800ms ease-in-out;
+
+    .logo {
+        color: var(--text-secondary);
+    }
+
+    #navToggler {
+        color: var(--text-secondary);
+    }
+
+    .navbar>.nav {
+        display: flex !important;
+
+        li>a {
+            color: var(--text-secondary) !important;
+            padding: 0.8rem 1rem;
+        }
+    }
+}
+
+
 .header {
     border-bottom: 2px solid rgba($color: #000000, $alpha: 0.1);
+    position: relative;
 }
 
 #header-main {
