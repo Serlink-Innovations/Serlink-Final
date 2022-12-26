@@ -229,7 +229,7 @@ video {
   align-items: center;
   display: grid;
   gap: 3rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin-block: 4rem;
 }
 
@@ -322,7 +322,7 @@ video {
 }
 
 .member-card {
-  width: 295px;
+  min-width: 300px;
   max-height: 300px;
   box-shadow: 0 0 2px;
   border-radius: 15px;
