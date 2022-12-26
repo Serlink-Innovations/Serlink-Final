@@ -332,13 +332,14 @@ video {
   margin-inline: auto;
 }
 .member-card .member-picture {
-  max-width: inherit;
+  max-width: 300px;
   height: 300px;
   border-radius: 15px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: top center;
-     object-position: top center;
+  object-position: top center;
+  zoom: 1.6;
 }
 .member-card .member-info {
   max-width: 90%;
