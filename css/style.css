@@ -229,7 +229,7 @@ video {
   align-items: center;
   display: grid;
   gap: 3rem;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-block: 4rem;
 }
 
@@ -322,7 +322,7 @@ video {
 }
 
 .member-card {
-  min-width: 300px;
+  width: 295px;
   max-height: 300px;
   box-shadow: 0 0 2px;
   border-radius: 15px;
@@ -332,14 +332,13 @@ video {
   margin-inline: auto;
 }
 .member-card .member-picture {
-  max-width: 300px;
+  max-width: inherit;
   height: 300px;
   border-radius: 15px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: top center;
-  object-position: top center;
-  zoom: 1.6;
+     object-position: top center;
 }
 .member-card .member-info {
   max-width: 90%;
