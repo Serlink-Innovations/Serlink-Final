@@ -7,8 +7,9 @@
     <div class="container mx-auto center navigation-float" style="position: absolute;">
 
         <nav class="navigation py-1" role="navigation">
+
             <span class="logo">
-                <a href="/">Serlink</a>
+                <a href="/"><img src="/favicon.ico" alt="">Serlink</a>
             </span>
 
             <div class="navbar d-flex">

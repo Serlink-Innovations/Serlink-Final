@@ -3,7 +3,7 @@
             <nav class="navigation py-1" role="navigation">
 
                 <span style="color: black !important;" class="logo">
-                    <a href="/">Serlink</a>
+                    <a href="/"><img src="/favicon.ico" alt="">Serlink</a>
                 </span>
 
                 <div class="navbar d-flex">

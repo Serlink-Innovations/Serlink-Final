@@ -129,6 +129,10 @@ video {
   -webkit-user-drag: none;
 }
 
+p {
+  line-height: 2;
+}
+
 @media (min-width: 996px) {
   .navigation {
     align-items: center;
@@ -205,8 +209,19 @@ video {
   text-transform: uppercase;
 }
 .logo a {
+  width: auto;
+  max-height: 50px;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
   text-decoration: none;
   color: inherit;
+}
+.logo a img {
+  width: 50px;
+  height: -webkit-max-content !important;
+  height: -moz-max-content !important;
+  height: max-content !important;
 }
 
 /**
@@ -302,6 +317,7 @@ video {
 }
 .card .card-body p {
   padding-block: 1rem;
+  line-height: 1.2;
 }
 .card .card-footer {
   display: block;
@@ -551,6 +567,15 @@ video {
 }
 
 /**
+*   Text Positioning
+**/
+.text-center {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/**
 *   Titles
 **/
 .title {
@@ -594,11 +619,34 @@ video {
   bottom: 0;
 }
 
+.title-regular {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-variant: small-caps;
+  position: relative;
+}
+
 .subtitle {
   display: block;
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
+}
+
+/**
+* Line Heights
+**/
+.line-height-1 {
+  line-height: 1.5;
+}
+
+.line-height-2 {
+  line-height: 2;
 }
 
 html,
