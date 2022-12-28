@@ -71,17 +71,19 @@
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  color: var(----text-primary);
+  color: orange;
   align-items: center;
   display: flex;
   font-weight: bold;
   margin: 0 !important;
   text-decoration: none;
+  letter-spacing: 0.5px;
 }
 
 .viewmore_link:hover {
   text-decoration: underline;
   text-underline-offset: 0.2rem;
+  text-decoration-thickness: 0.15rem;
 }
 
 .viewmore_link::after {
@@ -686,7 +688,7 @@ body {
   transition: 700ms ease-in-out;
 }
 .sticky .logo {
-  color: var(--text-secondary);
+  color: var(--primary);
 }
 .sticky #navToggler {
   color: var(--text-secondary);
