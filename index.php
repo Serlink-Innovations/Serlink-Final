@@ -4,7 +4,7 @@
 
     <img src="https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="heroImg">
 
-    <div class="container mx-auto center" id="navigation" style="position: absolute; z-index: 2; height: max-content;">
+    <div class="container mx-auto center navigation-float" style="position: absolute;">
 
         <nav class="navigation py-1" role="navigation">
             <span class="logo">
@@ -87,11 +87,11 @@
 
                 <div class="btnContainer">
 
-                    <button onclick="window.location.href='/projects.html'" name="Learn More Button" class="btn btn-primary">
+                    <button onclick="window.location.href='/about.php'" name="Learn More Button" class="btn btn-primary">
                         Learn More
                     </button>
 
-                    <button onclick="window.location.href='/projects.html'" name="Portfolio Button" class="btn">
+                    <button onclick="window.location.href='/projects.php'" name="Portfolio Button" class="btn">
                         Porfolio
                         <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                             <title />
@@ -185,7 +185,7 @@
                     with our clients.
                 </p>
 
-                <button name="Learn More Button" class="btn btn-primary">
+                <button name="Learn More Button" onclick="window.location.href='/about.php'" name="Learn More Button" class="btn btn-primary">
                     Learn More
                 </button>
             </div>

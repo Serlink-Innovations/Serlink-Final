@@ -1,7 +1,8 @@
 //Mobile HeaderFixed function
 function stickyMenu() {
-    const navigation = document.querySelector("#navigation");
-    navigation.classList.toggle("sticky", window.scrollY > 0)
+
+    const navigation = document.querySelector(".navigation-float");
+    navigation.classList.toggle("sticky", window.scrollY > 0);
 
 }
 

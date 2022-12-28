@@ -12,12 +12,31 @@ body {
     transition: 1s;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    grid: auto / 1em 1fr 1em;
+    min-height: 100%;
+}
+
+.navigation-float {
+    width: 100%;
+    height: max-content;
+    z-index: 2;
+}
+
 .sticky {
     max-width: 100% !important;
-    background-color: var(--background) !important;
+    border-bottom: .2rem solid var(--foreground);
+    background-color: rgba($color: #ffffff, $alpha: 0.8);
+    backdrop-filter: blur(8px);
     position: fixed !important;
     top: 0;
-    transition: 800ms ease-in-out;
+    transition: 700ms ease-in-out;
 
     .logo {
         color: var(--text-secondary);
@@ -39,8 +58,10 @@ body {
 
 
 .header {
+    display: flex;
     border-bottom: 2px solid rgba($color: #000000, $alpha: 0.1);
     position: relative;
+    justify-content: center;
 }
 
 #header-main {
@@ -265,6 +286,7 @@ section.team {
     display: flex;
     flex-direction: column;
     font-weight: 500;
+    margin-top: auto;
 
     #footer__Container {
         display: grid;

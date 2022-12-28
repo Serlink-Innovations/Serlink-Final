@@ -179,6 +179,7 @@ video {
   text-decoration: none;
 }
 .navigation .navbar .nav li a:hover {
+  font-weight: bold;
   text-decoration: underline;
   text-underline-offset: 0.35rem;
   text-decoration-thickness: 0.15rem;
@@ -607,12 +608,34 @@ body {
   transition: 1s;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  grid: auto/1em 1fr 1em;
+  min-height: 100%;
+}
+
+.navigation-float {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  z-index: 2;
+}
+
 .sticky {
   max-width: 100% !important;
-  background-color: var(--background) !important;
+  border-bottom: 0.2rem solid var(--foreground);
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
   position: fixed !important;
   top: 0;
-  transition: 800ms ease-in-out;
+  transition: 700ms ease-in-out;
 }
 .sticky .logo {
   color: var(--text-secondary);
@@ -629,8 +652,10 @@ body {
 }
 
 .header {
+  display: flex;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   position: relative;
+  justify-content: center;
 }
 
 #header-main {
@@ -827,6 +852,7 @@ section.team {
   display: flex;
   flex-direction: column;
   font-weight: 500;
+  margin-top: auto;
 }
 .footer #footer__Container {
   display: grid;
