@@ -2,7 +2,7 @@
 
             <nav class="navigation py-1" role="navigation">
 
-                <span style="color: black !important;" class="logo">
+                <span style="color: #224c8d !important;" class="logo">
                     <a href="/"><img src="/favicon.ico" alt="">Serlink</a>
                 </span>
 
