@@ -24,7 +24,7 @@
 
                         <li>
 
-                            <a style="color: black !important;" href="/projects">Projects</a>
+                            <a style="color: black !important;" href="/#projects">Projects</a>
 
                         </li>
 
