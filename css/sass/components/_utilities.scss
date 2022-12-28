@@ -303,10 +303,18 @@
     }
 
     .members-card-picture {
+        border: 2px solid rgba($color: #224c8d, $alpha: 0.15);
         border-radius: 100vmax;
         display: block;
         overflow: hidden;
         margin: auto;
+    }
+
+    @media (max-width: 768px) {
+        .member-title {
+            align-items: center !important;
+            text-align: center !important;
+        }
     }
 
     .member-title {

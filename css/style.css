@@ -462,10 +462,17 @@ p {
   }
 }
 .members-card-wide .members-card-picture {
+  border: 2px solid rgba(34, 76, 141, 0.15);
   border-radius: 100vmax;
   display: block;
   overflow: hidden;
   margin: auto;
+}
+@media (max-width: 768px) {
+  .members-card-wide .member-title {
+    align-items: center !important;
+    text-align: center !important;
+  }
 }
 .members-card-wide .member-title {
   display: flex;

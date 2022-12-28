@@ -2256,7 +2256,7 @@
 
             <div class="member-card">
 
-                <img class="member-picture" src="https://i.imgur.com/m7cFIvH.jpg" alt="memberImg">
+                <img class="member-picture" src="https://i.imgur.com/gwTYfBU.png" alt="memberImg">
 
                 <div class="member-info">
 
@@ -2299,7 +2299,7 @@
 
             <div class="member-card">
 
-                <img class="member-picture" src="https://i.imgur.com/UmpOAUe.jpg" alt="memberImg">
+                <img class="member-picture" src="https://i.imgur.com/gwTYfBU.png" alt="memberImg">
 
                 <div class="member-info">
 
@@ -2342,7 +2342,7 @@
 
             <div class="member-card">
 
-                <img class="member-picture" src="https://i.imgur.com/nwJgGB0.jpg" alt="memberImg">
+                <img class="member-picture" src="https://i.imgur.com/gwTYfBU.png" alt="memberImg">
 
                 <div class="member-info">
 

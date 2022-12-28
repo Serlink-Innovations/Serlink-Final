@@ -25,7 +25,7 @@
             <div class="members-card-wide members-card-wide-regular">
 
                 <picture class="members-card-picture">
-                    <img src="https://i.imgur.com/m7cFIvH.jpg">
+                    <img src="https://i.imgur.com/gwTYfBU.png">
                 </picture>
 
                 <div class="member-card-wide-content">
@@ -175,7 +175,7 @@
             <div class="members-card-wide members-card-wide-regular">
 
                 <picture class="members-card-picture">
-                    <img src="https://i.imgur.com/UmpOAUe.jpg">
+                    <img src="https://i.imgur.com/gwTYfBU.png">
                 </picture>
 
                 <div class="member-card-wide-content">
