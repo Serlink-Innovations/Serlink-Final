@@ -277,6 +277,15 @@
 
     @media (max-width:600px) {
         .members-card-picture {
+            max-width: 250px !important;
+            min-width: 250px !important;
+            min-height: 250px !important;
+            max-height: 250px !important;
+        }
+    }
+
+    @media (max-width:768px) {
+        .members-card-picture {
             max-width: 300px !important;
             min-width: 300px !important;
             min-height: 300px !important;
@@ -284,13 +293,18 @@
         }
     }
 
+    @media (min-width: 768px) {
+        .members-card-picture {
+            max-width: 400px;
+            min-width: 400px;
+            min-height: 400px;
+            max-height: 400px;
+        }
+    }
+
     .members-card-picture {
         border-radius: 100vmax;
         display: block;
-        max-width: 400px;
-        min-width: 400px;
-        min-height: 400px;
-        max-height: 400px;
         overflow: hidden;
         margin: auto;
     }
