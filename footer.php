@@ -4,9 +4,9 @@
 
         <div class="company__Info">
 
-            <h4 style="color:#224c8d;" class="logo c-prime" for="">
+            <h3 style="color:#224c8d;" class="logo c-prime" for="">
                 Serlink
-            </h4>
+            </h3>
 
             <p>
                 P256 Jane Street
@@ -26,37 +26,37 @@
 
         <div class="footer__Nav">
 
-            <h6 class="c-prime">Useful Links</h6>
+            <h4 class="c-prime">Useful Links</h4>
 
             <ul>
 
                 <li>
 
-                    <a href="">Home</a>
+                    <a href="/">Home</a>
 
                 </li>
 
                 <li>
 
-                    <a href="">About Us</a>
+                    <a href="/about.php">About Us</a>
 
                 </li>
 
                 <li>
 
-                    <a href="">Services</a>
+                    <a href="/services.php">Services</a>
 
                 </li>
 
                 <li>
 
-                    <a href="">Terns of Service</a>
+                    <a href="/terms-of-service.php">Terns of Service</a>
 
                 </li>
 
                 <li>
 
-                    <a href="">Privacy Policy</a>
+                    <a href="/privacy-policy.php">Privacy Policy</a>
 
                 </li>
 
@@ -66,37 +66,37 @@
 
         <div class="footer__Nav">
 
-            <h6 class="c-prime">Our Services</h6>
+            <h4 class="c-prime">Our Services</h4>
 
             <ul>
 
                 <li>
 
-                    <a href="">Web Design</a>
+                    <a href="#">Web Design</a>
 
                 </li>
 
                 <li>
 
-                    <a href="">Web Development</a>
+                    <a href="#">Web Development</a>
 
                 </li>
 
                 <li>
 
-                    <a href="">Graphic Design</a>
+                    <a href="#">Graphic Design</a>
 
                 </li>
 
                 <li>
 
-                    <a href="">IT Networking</a>
+                    <a href="#">IT Networking</a>
 
                 </li>
 
                 <li>
 
-                    <a href="">Repairs and Maintenance</a>
+                    <a href="#">Repairs and Maintenance</a>
 
                 </li>
 
@@ -106,7 +106,7 @@
 
         <div class="social">
 
-            <h6 class="c-prime">Connect With Us</h6>
+            <h4 class="c-prime">Connect With Us</h4>
 
             <p>
                 Stay up-to-date with our latest projects and industry news by following us on social media.

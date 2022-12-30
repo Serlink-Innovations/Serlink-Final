@@ -56,7 +56,7 @@
 
             </a>
 
-            <button name="nav Toggler" id="navToggler">
+            <button name="navToggler" id="navToggler">
                 <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22 18.0048C22 18.5544 21.5544 19 21.0048 19H12.9952C12.4456 19 12 18.5544 12 18.0048C12 17.4552 12.4456 17.0096 12.9952 17.0096H21.0048C21.5544 17.0096 22 17.4552 22 18.0048Z" fill="currentColor" />
                     <path d="M22 12.0002C22 12.5499 21.5544 12.9954 21.0048 12.9954H2.99519C2.44556 12.9954 2 12.5499 2 12.0002C2 11.4506 2.44556 11.0051 2.99519 11.0051H21.0048C21.5544 11.0051 22 11.4506 22 12.0002Z" fill="currentColor" />
@@ -93,14 +93,19 @@
                     </button>
 
                     <button onclick="window.location.href='/projects.php'" name="Portfolio Button" class="btn">
-                        Projects
 
-                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                            <title />
-                            <g data-name="Layer 2" id="Layer_2">
-                                <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z" />
-                            </g>
-                        </svg>
+                        <span class="button-text">
+                            Projects
+                        </span>
+
+                        <span class="button-icon">
+                            <svg id="Layer_1" style="enable-background:new 0 0 128 128;" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g>
+                                    <polygon points="79.9,98.9 114.8,64 79.9,29.1 74.2,34.8 99.5,60 36,60 36,68 99.5,68 74.2,93.2  " />
+                                    <rect height="8" width="8" x="16" y="60" />
+                                </g>
+                            </svg>
+                        </span>
 
                     </button>
 
@@ -2173,7 +2178,7 @@
 
         </div>
 
-        <a class="viewmore_link" href="/services.php">Learn More</a>
+        <a class="viewmore_link viewmore_link-black" href="/services.php">Learn More</a>
 
     </div>
 
@@ -2213,7 +2218,7 @@
 
                 <a aria-label="Domegen Website" href="https://www.domegencreative.com">
 
-                    <img src="https://i.imgur.com/AqieRUT.png" alt="">
+                    <img src="https://bl3302files.storage.live.com/y4mHRMjVozIUbQxGfK8AvL9zXvG6beDO2mUqpmcnEoCVfdZH9E7jSgQ5xp8Etsb7cUxhYE0sdKxRUaYJpPZ3RkFebVT9B8f3vGRF2rnz0sUASembrvKzSzWMBjIm4ZH8kFBh6wsP7RaG2zKJnpzPUnaVxvM01cttQAgb5d2L1YgGPwsTW0f8CitpiAeX7qpXJbn-jN6IcIb0igl2wnTqPktMXvCAU9xQkgScyRB3mEm1rA?encodeFailures=1&width=500&height=500" alt="">
 
                 </a>
 
@@ -2223,7 +2228,7 @@
 
                 <a aria-label="Bosawas Project Website" href="https://bosawas.serlink.ml">
 
-                    <img src="https://i.imgur.com/QYXvyr2.png" alt="">
+                    <img src="https://bl3302files.storage.live.com/y4mZayJBE2D1X92LuGe3CY2vAqznCfTBokfNYk3J-oQD0F_hdKEtsFutetvLeJ2aTkL2Jr4BD5MCI3UVeD5Fl_bXeQtzuq9aaHW0Bsycqy4Rk_o5R-vzVZb2gC3ro4TDVijHEGVWsi4ZJKZjKAWnv-_oZAjVQrKb0VMAqT5TJHxnQUhuR6akR41yoykS8bqpHHpMhqyNF2oxQrT8psUG9PZBXtoT-YTHmMvpojfZ_ekEDc?encodeFailures=1&width=500&height=500" alt="">
 
                 </a>
 
@@ -2231,7 +2236,7 @@
 
         </div>
 
-        <a class="viewmore_link" href="/projects.php">View More</a>
+        <a class="viewmore_link viewmore_link-white" href="/projects.php">View More</a>
 
     </div>
 
@@ -2258,7 +2263,7 @@
 
             <div class="member-card">
 
-                <img class="member-picture" src="https://i.imgur.com/gwTYfBU.png" alt="memberImg">
+                <img class="member-picture" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500" alt="memberImg">
 
                 <div class="member-info">
 
@@ -2301,7 +2306,7 @@
 
             <div class="member-card">
 
-                <img class="member-picture" src="https://i.imgur.com/gwTYfBU.png" alt="memberImg">
+                <img class="member-picture" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500" alt="memberImg">
 
                 <div class="member-info">
 
@@ -2344,7 +2349,7 @@
 
             <div class="member-card">
 
-                <img class="member-picture" src="https://i.imgur.com/gwTYfBU.png" alt="memberImg">
+                <img class="member-picture" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500" alt="memberImg">
 
                 <div class="member-info">
 
@@ -2387,7 +2392,7 @@
 
         </div>
 
-        <a class="viewmore_link" href="/team.php">Learn More</a>
+        <a class="viewmore_link viewmore_link-black" href="/team.php">Learn More</a>
 
     </div>
 

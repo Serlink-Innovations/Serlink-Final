@@ -18,8 +18,8 @@
   background-color: #e8e8e8;
   display: inline-flex;
   cursor: pointer;
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
+  -moz-column-gap: 0.4rem;
+       column-gap: 0.4rem;
   font-weight: 600;
   font-family: inherit;
   place-content: center;
@@ -32,6 +32,13 @@
 .btn svg {
   max-width: 25px;
   height: 25px;
+}
+
+.button-text,
+.button-icon {
+  align-items: center;
+  display: inline-flex;
+  padding: 0;
 }
 
 .btn-primary {
@@ -70,16 +77,23 @@
 }
 
 .viewmore_link {
+  align-items: center;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  color: orange;
-  align-items: center;
   display: flex;
   font-weight: bold;
   margin: 0 !important;
   text-decoration: none;
   letter-spacing: 0.5px;
+}
+
+.viewmore_link-black {
+  color: #000000;
+}
+
+.viewmore_link-white {
+  color: #FFFFFF;
 }
 
 .viewmore_link:hover {
@@ -213,7 +227,7 @@ p {
   text-transform: uppercase;
 }
 .logo a {
-  width: auto;
+  width: 50px;
   max-height: 50px;
   align-items: center;
   display: flex;
@@ -328,7 +342,7 @@ p {
   display: block;
 }
 .card .card-footer label {
-  color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 4rem;
   font-weight: bold;
 }
@@ -486,7 +500,7 @@ p {
   font-size: 2rem;
 }
 .members-card-wide .member-title .card-subtitle {
-  color: cornflowerblue;
+  color: black;
   font-weight: 100;
   font-size: 1.2rem;
 }
@@ -696,7 +710,6 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  grid: auto/1em 1fr 1em;
   min-height: 100%;
 }
 
@@ -734,6 +747,9 @@ body {
 
 .header {
   display: flex;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   position: relative;
   justify-content: center;
@@ -832,7 +848,9 @@ body {
 }
 
 .content {
+  display: block;
   padding-block: 3rem;
+  min-height: inherit;
 }
 
 section.about {
@@ -918,8 +936,8 @@ section.portfolio .projects-grid .project-item a {
   border-radius: inherit;
 }
 section.portfolio .projects-grid .project-item a img {
-  width: inherit;
-  height: inherit;
+  width: 320px;
+  height: 240px;
   border-radius: inherit;
   -o-object-fit: cover;
      object-fit: cover;
@@ -935,12 +953,12 @@ section.team {
   display: flex;
   flex-direction: column;
   font-weight: 500;
-  margin-top: auto;
+  margin-top: auto !important;
 }
 .footer #footer__Container {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   margin-block: 4rem;
 }
 .footer #footer__Container h6 {
@@ -1020,6 +1038,9 @@ section.team {
 }
 
 /**
+*   About Us Page Customization Section
+**/
+/**
 *   Portfolio Page Customization Section
 **/
 section#projects-gallery {
@@ -1085,7 +1106,7 @@ section#projects-gallery #gallery .practice h2::after {
 /**
 *   Our Team Page Customization Section
 **/
-section.members {
+section#members {
   display: block;
 }
 

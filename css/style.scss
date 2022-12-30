@@ -19,8 +19,9 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    grid: auto / 1em 1fr 1em;
+
     min-height: 100%;
+
 }
 
 .navigation-float {
@@ -59,6 +60,7 @@ body {
 
 .header {
     display: flex;
+    height: max-content;
     border-bottom: 2px solid rgba($color: #000000, $alpha: 0.1);
     position: relative;
     justify-content: center;
@@ -170,7 +172,9 @@ body {
 }
 
 .content {
+    display: block;
     padding-block: 3rem;
+    min-height: inherit;
 }
 
 section.about {
@@ -267,8 +271,8 @@ section.portfolio {
                 border-radius: inherit;
 
                 img {
-                    width: inherit;
-                    height: inherit;
+                    width: 320px;
+                    height: 240px;
                     border-radius: inherit;
                     object-fit: cover;
                 }
@@ -288,12 +292,12 @@ section.team {
     display: flex;
     flex-direction: column;
     font-weight: 500;
-    margin-top: auto;
+    margin-top: auto !important;
 
     #footer__Container {
         display: grid;
         gap: 2rem;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         margin-block: 4rem;
 
         h6 {
@@ -390,6 +394,10 @@ section.team {
 }
 
 /**
+*   About Us Page Customization Section
+**/
+
+/**
 *   Portfolio Page Customization Section
 **/
 section#projects-gallery {
@@ -459,7 +467,7 @@ section#projects-gallery {
 /**
 *   Our Team Page Customization Section
 **/
-section.members {
+section#members {
     display: block;
 }
 

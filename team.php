@@ -6,7 +6,7 @@
 
 </header>
 
-<section class="members">
+<section class="content" id="members">
 
     <div class="container mx-auto">
 
@@ -25,7 +25,7 @@
             <div class="members-card-wide members-card-wide-regular">
 
                 <picture class="members-card-picture">
-                    <img src="https://i.imgur.com/gwTYfBU.png">
+                    <img alt="member-img" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500">
                 </picture>
 
                 <div class="member-card-wide-content">
@@ -167,7 +167,7 @@
                 </div>
 
                 <picture class="members-card-picture" id="inverse-pic">
-                    <img src="https://i.imgur.com/nwJgGB0.jpg">
+                    <img alt="member-img" src="https://i.imgur.com/nwJgGB0.jpg">
                 </picture>
 
             </div>
@@ -175,7 +175,7 @@
             <div class="members-card-wide members-card-wide-regular">
 
                 <picture class="members-card-picture">
-                    <img src="https://i.imgur.com/gwTYfBU.png">
+                    <img alt="member-img" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500">
                 </picture>
 
                 <div class="member-card-wide-content">

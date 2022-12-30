@@ -6,4 +6,10 @@
 
 </header>
 
+<div class="content" id="service">
+
+
+
+</div>
+
 <?php require_once('footer.php'); ?>

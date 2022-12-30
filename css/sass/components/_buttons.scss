@@ -7,7 +7,7 @@
     background-color: #e8e8e8;
     display: inline-flex;
     cursor: pointer;
-    column-gap: .5rem;
+    column-gap: .4rem;
     font-weight: 600;
     font-family: inherit;
     place-content: center;
@@ -21,6 +21,13 @@
         max-width: 25px;
         height: 25px;
     }
+}
+
+.button-text,
+.button-icon {
+    align-items: center;
+    display: inline-flex;
+    padding: 0;
 }
 
 

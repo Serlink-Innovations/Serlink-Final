@@ -6,7 +6,7 @@
 
 </header>
 
-<section class="company-biography">
+<section class="content" id="company-biography">
 
     <div class="container mx-auto">
 

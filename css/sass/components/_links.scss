@@ -1,12 +1,19 @@
 .viewmore_link {
-    width: max-content;
-    color: orange;
     align-items: center;
+    width: max-content;
     display: flex;
     font-weight: bold;
     margin: 0 !important;
     text-decoration: none;
     letter-spacing: .5px;
+}
+
+.viewmore_link-black {
+    color: #000000;
+}
+
+.viewmore_link-white {
+    color: #FFFFFF;
 }
 
 .viewmore_link:hover {
