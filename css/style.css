@@ -12,11 +12,11 @@
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: 50px;
+  height: clamp(45px, 10vw, 50px);
   border: none;
   border-radius: 100vmax;
   background-color: #e8e8e8;
-  display: flex;
+  display: inline-flex;
   cursor: pointer;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
@@ -24,11 +24,13 @@
   font-family: inherit;
   place-content: center;
   margin-block: auto;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 1rem;
   text-decoration: none;
+  text-align: center;
+  justify-content: center;
 }
 .btn svg {
-  width: 25px;
+  max-width: 25px;
   height: 25px;
 }
 
@@ -248,7 +250,8 @@ p {
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  margin-block: 4rem;
+  margin-block: 1rem;
+  padding-block: 1rem;
   place-content: center;
   justify-content: center;
 }
@@ -257,7 +260,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-block: 4rem;
+  margin-block: 1rem;
   justify-content: space-between;
 }
 
@@ -351,6 +354,7 @@ p {
   flex-direction: column;
   position: relative;
   margin-inline: auto;
+  margin-block: 1rem;
 }
 .member-card .member-picture {
   width: 250px;
@@ -865,8 +869,8 @@ section.services #servicesContainer {
 }
 section.services #servicesContainer #servicesHeaderText {
   display: block;
-  padding-block: 1rem;
   text-align: center;
+  margin-top: 1rem;
 }
 
 section.portfolio {
@@ -897,7 +901,7 @@ section.portfolio .filters .active {
 section.portfolio .projects-grid {
   display: flex;
   gap: 2rem;
-  padding-block: 2rem;
+  padding-block: 1rem;
   overflow: auto;
 }
 section.portfolio .projects-grid .project-item {
@@ -906,6 +910,7 @@ section.portfolio .projects-grid .project-item {
   border-radius: 15px;
   background-color: aquamarine;
   display: grid;
+  margin-block: 1rem;
 }
 section.portfolio .projects-grid .project-item a {
   width: inherit;

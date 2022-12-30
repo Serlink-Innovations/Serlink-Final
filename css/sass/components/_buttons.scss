@@ -1,25 +1,28 @@
 .btn {
     align-items: center;
     width: max-content;
-    height: 50px;
+    height: clamp(45px, 10vw, 50px);
     border: none;
     border-radius: 100vmax;
     background-color: #e8e8e8;
-    display: flex;
+    display: inline-flex;
     cursor: pointer;
     column-gap: .5rem;
     font-weight: 600;
     font-family: inherit;
     place-content: center;
     margin-block: auto;
-    padding: .8rem 2rem;
+    padding: .8rem 1rem;
     text-decoration: none;
+    text-align: center;
+    justify-content: center;
 
     svg {
-        width: 25px;
+        max-width: 25px;
         height: 25px;
     }
 }
+
 
 .btn-primary {
     background-color: var(--primary);

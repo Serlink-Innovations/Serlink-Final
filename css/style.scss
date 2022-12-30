@@ -211,8 +211,8 @@ section.services {
 
         #servicesHeaderText {
             display: block;
-            padding-block: 1rem;
             text-align: center;
+            margin-top: 1rem;
         }
     }
 }
@@ -250,7 +250,7 @@ section.portfolio {
     .projects-grid {
         display: flex;
         gap: 2rem;
-        padding-block: 2rem;
+        padding-block: 1rem;
         overflow: auto;
 
         .project-item {
@@ -259,6 +259,7 @@ section.portfolio {
             border-radius: 15px;
             background-color: aquamarine;
             display: grid;
+            margin-block: 1rem;
 
             a {
                 width: inherit;
