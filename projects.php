@@ -27,7 +27,7 @@
 
                     <a href="https://www.domegencreative.com">
 
-                        <img src="https://bl3302files.storage.live.com/y4mBqbzITBjpnViq5L4XTVWjQYhhREaK8-MTzcfTFLS79FjhDw45fe6IhPpQpUvVgw2U-Cr-hi0okAnLy1v2eO4s9_2_Fqha-1d6OtSMSaxrEpBJHJnZ693VsRTopRlwi1fIv9I-iUK-BQ3h56QJZBgvBKiGPS_VEAg7MbTK9wsowi2kfeJ3njP-GInaMF6I9qH_fnQNLJ0Garcm_l7SaunPyBB_c8_-ZIGhqx8SgNJxIc?encodeFailures=1&width=500&height=500" alt="Domegen Creative Co.">
+                        <img src="https://bl3302files.storage.live.com/y4m7SkSLya4u5-_0w0lUnPwIdXEnwtBnpg1K6AZIJ1hfZhXAGnCo0MGF7bpmAia-yt0P2dzR7S0-T9jYUvlDuVikAWZkShg_VrtFvs5BIBiNZI-iBvDuWYY4mtyty-PCcPMjYM0TR0bg6d_ZhgUdsbxq_dItMMTxFXRLymc9xUVlCEWTbVWT56B8irL90wxwFqw?width=500&height=500&cropmode=none" alt="Domegen Creative Co.">
 
                     </a>
 
@@ -53,7 +53,7 @@
 
                     <a href="https://bosawas.serlink.ml">
 
-                        <img src="https://bl3302files.storage.live.com/y4m1LvougpFCBwfL9moNXgsNPzylzyMdmvXwfoD3ggb-hdRs9n7JdXvNx0Yu_Kj0VMykYtiX9_1XIWRtVoHITiTwpysHAm5BG8MTpkvYFD7G_YQlDUmvbAF4biz_OIDE5mJ7fKZt45-hfEqXDPKG_EELxvGWQmm9MAv3B1D-XBkc9OWdSpj5UDXVcczd_50otC5U0NCGvMeJ4CoMfHi7YqIlvIymRS43McbkwOgGZc8pYw?encodeFailures=1&width=500&height=500" alt="Bosawas - Ecommerce Template">
+                        <img src="https://bl3302files.storage.live.com/y4mRgpF0lwY5sWt6iHcDkCQgP9WGb3MUpfWq0SyjNSz-ib7pOp1NYRlAP9E6GKe5WvHUKmZtSRSfZRPq44xpyFK6TF_zsKlVmxvGUR0Xsvb3bRAAJy9l9chMY31aaIY6tC-L5b7bNM6aGhgF5f5VTYjvUVMxDMJfEUdkXuqW26zNzQhKzf5UsHDfLn14gZmSR6C?width=500&height=500&cropmode=none" alt="Bosawas - Ecommerce Template">
 
                     </a>
 

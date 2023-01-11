@@ -2218,7 +2218,7 @@
 
                 <a aria-label="Domegen Website" href="https://www.domegencreative.com">
 
-                    <img src="https://bl3302files.storage.live.com/y4mHRMjVozIUbQxGfK8AvL9zXvG6beDO2mUqpmcnEoCVfdZH9E7jSgQ5xp8Etsb7cUxhYE0sdKxRUaYJpPZ3RkFebVT9B8f3vGRF2rnz0sUASembrvKzSzWMBjIm4ZH8kFBh6wsP7RaG2zKJnpzPUnaVxvM01cttQAgb5d2L1YgGPwsTW0f8CitpiAeX7qpXJbn-jN6IcIb0igl2wnTqPktMXvCAU9xQkgScyRB3mEm1rA?encodeFailures=1&width=500&height=500" alt="">
+                    <img src="https://bl3302files.storage.live.com/y4m7SkSLya4u5-_0w0lUnPwIdXEnwtBnpg1K6AZIJ1hfZhXAGnCo0MGF7bpmAia-yt0P2dzR7S0-T9jYUvlDuVikAWZkShg_VrtFvs5BIBiNZI-iBvDuWYY4mtyty-PCcPMjYM0TR0bg6d_ZhgUdsbxq_dItMMTxFXRLymc9xUVlCEWTbVWT56B8irL90wxwFqw?width=500&height=500&cropmode=none" alt="Domegen Website Portal">
 
                 </a>
 
@@ -2228,7 +2228,7 @@
 
                 <a aria-label="Bosawas Project Website" href="https://bosawas.serlink.ml">
 
-                    <img src="https://bl3302files.storage.live.com/y4mZayJBE2D1X92LuGe3CY2vAqznCfTBokfNYk3J-oQD0F_hdKEtsFutetvLeJ2aTkL2Jr4BD5MCI3UVeD5Fl_bXeQtzuq9aaHW0Bsycqy4Rk_o5R-vzVZb2gC3ro4TDVijHEGVWsi4ZJKZjKAWnv-_oZAjVQrKb0VMAqT5TJHxnQUhuR6akR41yoykS8bqpHHpMhqyNF2oxQrT8psUG9PZBXtoT-YTHmMvpojfZ_ekEDc?encodeFailures=1&width=500&height=500" alt="">
+                    <img src="https://bl3302files.storage.live.com/y4mRgpF0lwY5sWt6iHcDkCQgP9WGb3MUpfWq0SyjNSz-ib7pOp1NYRlAP9E6GKe5WvHUKmZtSRSfZRPq44xpyFK6TF_zsKlVmxvGUR0Xsvb3bRAAJy9l9chMY31aaIY6tC-L5b7bNM6aGhgF5f5VTYjvUVMxDMJfEUdkXuqW26zNzQhKzf5UsHDfLn14gZmSR6C?width=500&height=500&cropmode=none" alt="Bosawas Project Website Portal">
 
                 </a>
 
@@ -2263,7 +2263,7 @@
 
             <div class="member-card">
 
-                <img class="member-picture" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500" alt="memberImg">
+                <img class="member-picture" src="https://bl3302files.storage.live.com/y4mLp3jxyuL24eGijIDKTOjSraZp-mn9TFhVIBfHCaYO8uTBLMogyYOsrbEP_VyOLXWbpNA3xKTph57l8FQF3ghgBKLSNGHPFQVwSg72EBnbNOEqNzwJrKF_efo6UAPFoifx5-kTQ7MiGdc7fWWhcW3LbqnoGO-aBGw8bUogzO_3ZYJZKRPHmstTYmpmkXxCfUw?width=500&height=500&cropmode=none" alt="memberImg">
 
                 <div class="member-info">
 
@@ -2306,7 +2306,7 @@
 
             <div class="member-card">
 
-                <img class="member-picture" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500" alt="memberImg">
+                <img class="member-picture" src="https://bl3302files.storage.live.com/y4mLp3jxyuL24eGijIDKTOjSraZp-mn9TFhVIBfHCaYO8uTBLMogyYOsrbEP_VyOLXWbpNA3xKTph57l8FQF3ghgBKLSNGHPFQVwSg72EBnbNOEqNzwJrKF_efo6UAPFoifx5-kTQ7MiGdc7fWWhcW3LbqnoGO-aBGw8bUogzO_3ZYJZKRPHmstTYmpmkXxCfUw?width=500&height=500&cropmode=none" alt="memberImg">
 
                 <div class="member-info">
 
@@ -2349,7 +2349,7 @@
 
             <div class="member-card">
 
-                <img class="member-picture" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500" alt="memberImg">
+                <img class="member-picture" src="https://bl3302files.storage.live.com/y4mLp3jxyuL24eGijIDKTOjSraZp-mn9TFhVIBfHCaYO8uTBLMogyYOsrbEP_VyOLXWbpNA3xKTph57l8FQF3ghgBKLSNGHPFQVwSg72EBnbNOEqNzwJrKF_efo6UAPFoifx5-kTQ7MiGdc7fWWhcW3LbqnoGO-aBGw8bUogzO_3ZYJZKRPHmstTYmpmkXxCfUw?width=500&height=500&cropmode=none" alt="memberImg">
 
                 <div class="member-info">
 

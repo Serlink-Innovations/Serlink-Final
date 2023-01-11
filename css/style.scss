@@ -32,7 +32,7 @@ body {
 
 .sticky {
     max-width: 100% !important;
-    border-bottom: .2rem solid var(--foreground);
+    border-bottom: .2rem solid var(--primary);
     background-color: rgba($color: #ffffff, $alpha: 0.8);
     backdrop-filter: blur(8px);
     position: fixed !important;

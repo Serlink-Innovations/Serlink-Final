@@ -1,25 +1,16 @@
 .btn {
-    align-items: center;
     width: max-content;
-    height: clamp(45px, 10vw, 50px);
     border: none;
     border-radius: 100vmax;
-    background-color: #e8e8e8;
-    display: inline-flex;
     cursor: pointer;
-    column-gap: .4rem;
+    display: inline-flex;
     font-weight: 600;
-    font-family: inherit;
-    place-content: center;
-    margin-block: auto;
-    padding: .8rem 1rem;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
+    gap: .5rem;
+    padding: 0.6rem 1rem;
 
     svg {
-        max-width: 25px;
-        height: 25px;
+        width: 1em;
+        height: 1em;
     }
 }
 

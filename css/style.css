@@ -8,30 +8,20 @@
 }
 
 .btn {
-  align-items: center;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: clamp(45px, 10vw, 50px);
   border: none;
   border-radius: 100vmax;
-  background-color: #e8e8e8;
-  display: inline-flex;
   cursor: pointer;
-  -moz-column-gap: 0.4rem;
-       column-gap: 0.4rem;
+  display: inline-flex;
   font-weight: 600;
-  font-family: inherit;
-  place-content: center;
-  margin-block: auto;
-  padding: 0.8rem 1rem;
-  text-decoration: none;
-  text-align: center;
-  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
 }
 .btn svg {
-  max-width: 25px;
-  height: 25px;
+  width: 1em;
+  height: 1em;
 }
 
 .button-text,
@@ -245,17 +235,28 @@ p {
 /**
 *   Contaienrs
 **/
-@media (max-width: 996px) {
-  .container {
-    width: 100% !important;
-  }
-}
 .container {
-  max-width: 1320px;
-  padding-inline: 1rem;
-  overflow: hidden;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 /**
 *   Cards
 **/
@@ -723,7 +724,7 @@ body {
 
 .sticky {
   max-width: 100% !important;
-  border-bottom: 0.2rem solid var(--foreground);
+  border-bottom: 0.2rem solid var(--primary);
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);

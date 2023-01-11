@@ -25,7 +25,7 @@
             <div class="members-card-wide members-card-wide-regular">
 
                 <picture class="members-card-picture">
-                    <img alt="member-img" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500">
+                    <img alt="member-img" src="https://bl3302files.storage.live.com/y4mLp3jxyuL24eGijIDKTOjSraZp-mn9TFhVIBfHCaYO8uTBLMogyYOsrbEP_VyOLXWbpNA3xKTph57l8FQF3ghgBKLSNGHPFQVwSg72EBnbNOEqNzwJrKF_efo6UAPFoifx5-kTQ7MiGdc7fWWhcW3LbqnoGO-aBGw8bUogzO_3ZYJZKRPHmstTYmpmkXxCfUw?width=500&height=500&cropmode=none">
                 </picture>
 
                 <div class="member-card-wide-content">
@@ -66,7 +66,9 @@
 
                         <label class="skill-pill" for="">Web Development</label>
 
-                        <label class="skill-pill" for="">Repairs</label>
+                        <label class="skill-pill" for="">System Repairs</label>
+
+                        <label class="skill-pill" for="">System Maintenance</label>
 
                     </span>
 
@@ -175,7 +177,7 @@
             <div class="members-card-wide members-card-wide-regular">
 
                 <picture class="members-card-picture">
-                    <img alt="member-img" src="https://bl3302files.storage.live.com/y4mbO8EIKgPib_hLMUgQcCnS_3_zufwgvgLqgxcnl2g4-yeFTQPMjJ1yAF60_hssj3li-NQv-2rNoZkotqH1uWeVDc5C51YxtB2UzLK3iVLhxuL-CB41A0nWYs1tNybFsh-qy0vHBsHQjQ9GgsPaLM5RnFNJP5Q6EBHH-hPykOkYoJVycQZc3q0kpjDRwMheuF_ZtlsI9Mqgt4ujbjkQUfef2Ew0N0sYGc5_9RYeIEnpWw?encodeFailures=1&width=500&height=500">
+                    <img alt="member-img" src="https://bl3302files.storage.live.com/y4mLp3jxyuL24eGijIDKTOjSraZp-mn9TFhVIBfHCaYO8uTBLMogyYOsrbEP_VyOLXWbpNA3xKTph57l8FQF3ghgBKLSNGHPFQVwSg72EBnbNOEqNzwJrKF_efo6UAPFoifx5-kTQ7MiGdc7fWWhcW3LbqnoGO-aBGw8bUogzO_3ZYJZKRPHmstTYmpmkXxCfUw?width=500&height=500&cropmode=none">
                 </picture>
 
                 <div class="member-card-wide-content">
