@@ -716,7 +716,6 @@ body {
 }
 
 .navigation-float {
-  width: 100%;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -724,7 +723,7 @@ body {
 }
 
 .sticky {
-  max-width: 100% !important;
+  width: 100% !important;
   border-bottom: 0.2rem solid var(--primary);
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(8px);
@@ -790,13 +789,13 @@ body {
   flex-direction: column;
 }
 #header-main .hero #heroContainer #heroText #heroTitle {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: clamp(1rem, 9.5vw, 3rem);
   font-weight: 600;
 }
 #header-main .hero #heroContainer #heroText #heroSlug {
   max-width: 55ch;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: clamp(0.8rem, 6vw, 1rem);
   line-height: 1.4;
 }
@@ -814,7 +813,7 @@ body {
 }
 #header-main .hero #heroContainer #heroText .clients h6 {
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   gap: 0.5rem;
   font-size: 12px;
@@ -822,7 +821,7 @@ body {
 #header-main .hero #heroContainer #heroText .clients h6 span {
   width: 2rem;
   height: 0.05rem;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
 }
 #header-main .hero #heroContainer #heroText .clients #clientLogos {
@@ -837,7 +836,7 @@ body {
 #header-main .hero #heroContainer #heroText .clients #clientLogos .client-logo svg {
   -o-object-fit: contain;
      object-fit: contain;
-  fill: #FFF;
+  fill: #fff;
 }
 
 #header-main::before {
@@ -895,7 +894,7 @@ section.services #servicesContainer #servicesHeaderText {
 
 section.portfolio {
   background-color: var(--primary);
-  color: #FFFFFF;
+  color: #ffffff;
   padding-block: 3rem;
   text-align: center;
 }
@@ -1027,14 +1026,14 @@ section.team {
   height: 48px !important;
   border-radius: 100vmax;
   background-color: var(--primary);
-  fill: #FFFFFF;
+  fill: #ffffff;
   padding: 0.5rem;
 }
 .footer .copyright {
   width: 100%;
   display: flex;
   background-color: var(--primary);
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 1rem;
   justify-content: center;
 }
