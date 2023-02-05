@@ -9,7 +9,7 @@ html,
 body {
   font-size: 16px;
   scroll-behavior: smooth;
-  transition: 1s;
+  transition: 1s ease;
 }
 
 html {
@@ -35,7 +35,7 @@ body {
   backdrop-filter: blur(8px);
   position: fixed !important;
   top: 0;
-  transition: 700ms ease-in-out;
+  transition: 700ms ease;
 
   .logo {
     color: var(--primary);
